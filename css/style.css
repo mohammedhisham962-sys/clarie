@@ -52,6 +52,13 @@ html {
 body {
   font-family: var(--font-sans);
   background-color: var(--bg-deep);
+  background-image: 
+    radial-gradient(ellipse 70% 50% at 50% 0%, rgba(139, 92, 246, 0.06), transparent 70%),
+    linear-gradient(180deg, rgba(13, 15, 19, 0.88) 0%, rgba(13, 15, 19, 0.98) 100%),
+    url('../assets/palm-shadow.png');
+  background-attachment: fixed;
+  background-position: top center, top center, center right;
+  background-size: 100% auto, 100% 100%, cover;
   color: var(--text-pure);
   line-height: 1.6;
   overflow-x: hidden;
